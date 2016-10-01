@@ -44,11 +44,20 @@ function replaceText(v)
     v = v.replace(/\bpiazza\b/g, "torg");
 
     //Local
-    v = v.replace(/\bLocal\b/g, "Wanna be local");
-    v = v.replace(/\blocal\b/g, "wanna be local");
+    v = v.replace(/\bLocal\b/g, "Svenne");
+    v = v.replace(/\blocal\b/g, "svenne");
+
+    //Ananas
+    v = v.replace(/\bMango\b/g, "Ananas");
+    v = v.replace(/\bmango\b/g, "ananas");
 
     //Håkan
     v = v.replace(/\b(Håkan)|(Håkan Hellström)|(håkan)|(håkan hellström)\b/g, "Svenne Banan");
+
+    //TODO
+    //Low hanging
+    // v = v.replace(/\bLow hanging\b/g, "");
+    // v = v.replace(/\blow hanging\b/g, "");
 
     return v;
 }
