@@ -10,5 +10,6 @@ Browser extension that replaces words with their true meaning.
 
 ## Cred
 
-Cred to Eric Bailey whos code this was built upon:
+Cred to Eric Bailey whose code this was built upon:
+
 https://github.com/ericwbailey/millennials-to-snake-people
